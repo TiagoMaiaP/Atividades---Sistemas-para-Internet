@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Novo Projeto - Tiago Maia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Cadastro</a>
+        </nav>
+    </header>
+
+    <main id="sobre">
+        <h1>Sobre</h1>
+
+        <form action="exibirdados.html" method="get">
+            <p>
+                <label for="nome-sobre">Nome:</label>
+                <input type="text" id="nome-sobre" name="nome" required>
+            </p>
+
+            <p>
+                <label for="email-sobre">E-mail:</label>
+                <input type="email" id="email-sobre" name="email" required>
+            </p>
+
+            <p>
+                <button type="submit">Exibir Dados</button>
+            </p>
+
+            <p>
+                <label for="radiolang">Selecione:</label>
+                <input type="radio" id="radiolang" name="linguagem" value="python" required>
+                <label for="radiolang">Python</label>
+                <input type="radio" id="radiolang2" name="linguagem" value="javascript">
+                <label for="radiolang2">JavaScript</label>
+                <input type="radio" id="radiolang3" name="linguagem" value="html">
+                <label for="radiolang3">HTML</label>
+            </p>
+
+            <h4>Selecione algo:</h4>
+                <input type="radio" id="python" name="ling2" value="python" required>
+                <label for="python">Python</label><br>
+                <input type="radio" id="js" name="ling2" value="javascript">
+                <label for="js">JavaScript</label><br>
+                <input type="radio" id="html" name="ling2" value="html">
+                <label for="html">HTML</label><br>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Novo Projeto - Tiago Maia</p>
+    </footer>
+</body>
+</html>
